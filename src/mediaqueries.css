@@ -146,6 +146,7 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .contact-info-container {
     margin: 0;
@@ -205,11 +206,21 @@
   .contact-card h3 {
     font-size: 1rem;
   }
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
   .work-card {
     padding: 1.5rem;
   }
   .work-card h3 {
     font-size: 1.2rem;
+  }
+  .article-container {
+    justify-content: center;
+    gap: 1rem;
+  }
+  article {
+    width: 7rem;
   }
 }
 
